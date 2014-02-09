@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I.\Obj -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\src -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\Newsw -I..\..\Utilities\Camera -I..\..\Utilities\SramNAND\Nand_MT29F1G08 -I..\..\Utilities\SramNAND\STM3240_41_G_EVAL
+-I C:\Keil\ARM\RV31\INC
+-I G:\KEIL_STM\ARM\CMSIS\3.20.4\CMSIS\Include
+-I G:\KEIL_STM\Keil\STM32F4xx_DFP\1.0.5\Device\Include
+-DSTM32F40XX -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -o .\obj\stm32f4xx_dbgmcu.o --omf_browse .\obj\stm32f4xx_dbgmcu.crf --depend .\obj\stm32f4xx_dbgmcu.d "..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c"
